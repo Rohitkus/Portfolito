@@ -1,0 +1,388 @@
+
+@media only screen and (max-width:600px){
+
+      .open{
+      position: absolute;
+        cursor:pointer;
+        display:block;
+        left:20px;
+        top:13px
+      }
+      .logo{
+        margin-left: 40%;
+      }
+    
+      
+      .close{
+        display:block;
+        position: absolute;
+        right:5px;
+        top:8px
+      }
+
+      .sidebar{
+      position: fixed;
+        display:block;
+       height: 100%;
+       width: 60%;
+       z-index: 3;
+        left: -260px;
+        background-color:#FAF9F6;
+        transition:left 0.5s;
+      }
+      .nav div a {
+        display:block;
+        font-weight:lighter;
+        color:black;
+        margin: 40px;
+      
+        text-decoration: none;
+        font-size: 22px;
+    }
+     
+.navmenu hr{
+    display: block;
+    color:black
+  }
+
+      .main {
+        display: block;
+    
+      }
+      .maincercil{
+        
+  width: 65vw;
+  height: 31.5vh;
+  border-radius: 50%;
+  margin-top: 2px;
+  
+      }
+      .intro1 {
+       
+        margin-top: 8%;
+        margin-left: 0px;
+        font-size: 16px;
+      }
+      .intro1 h1{font-size: 24px;}
+      .welcome{
+        width: 60%;
+        font-size: 16px;
+      }
+      .lets{
+       
+        margin-top: 10px;
+      }
+      
+      
+.html{
+   
+    top:40%;
+    left:-20%
+    
+  }
+  .css{
+   
+    bottom:-12%;
+    left:35%
+    
+  }
+  .js{
+    
+    top:40%;
+    right:-12.5%
+    
+  }
+  .bootstrap{
+
+    top:-9%;
+    left:40%
+    
+  }
+ 
+ 
+
+
+}
+/* about me Section===================== */
+
+@media only screen and (max-width:600px){
+   
+  .about{
+    margin-top: 5px;
+  }
+  .about h1{
+    margin-top: -10px;
+  }
+  .row{margin-top: -16px;}
+    .colm1{
+      
+        flex-basis: 100%;
+    }
+    .colm2{
+       
+     
+        flex-basis: 100%;
+    }
+
+    .wrapper2{
+        margin-top: -78px;
+    }
+
+    .colArea1{
+
+        width:75vw;
+        height:40vh;
+        border-radius: 3%;
+        margin-top: -10px;
+      
+      }
+      .colArea2{display: none;}
+      .colArea2mob{
+
+        width:85vw;
+        height:42vh;
+        border-radius: 3%;
+        display:grid;
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+        
+      
+      }
+      .aboutMenuMob{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
+      .aboutMenuMob div p{
+        font-size: 24px;
+        
+        padding: 2px;
+        cursor: pointer;
+      }
+      .aboutContentMob{
+        margin-top: -40px;
+      }
+      #abbtn{border-bottom: 1px solid white;}
+      .educon{display: none;}
+
+
+      .educon ul li{
+        list-style: none;
+        font-size: 16px;
+      }
+      .educon ul li span{
+        color:#0ef;
+        font-size:18px ;
+        
+      }
+
+      .wrapper3{
+        
+        margin-top: 14px;
+       
+      
+      }
+      
+
+
+
+      /* skillll hdsljfhldjfhlakjsdfhlajsdhlfjdhflajdshflkajhksljdfhlakjhdflkjahsldkj */
+
+      .skill{
+       
+        grid-template-columns: 100%  ;
+        padding: 0px;
+      }
+      
+.skillConteiner,.proSkillCont{
+  width:95%;
+
+  padding: 0px;
+  
+}
+.skillitem{
+  margin: 5px;}
+      
+  .progress{
+    background: lightgrey;
+    width: 100%;
+    height: 14px;
+    margin-top: 16px;
+    
+  }
+
+  .htmlimg img{
+    margin-left:-10px;                                                      
+   width: 60px;
+ }
+ .cssimg img{
+                                                      
+  width: 40px;
+ }
+ .jsimg img{
+                                                      
+  width: 33px;
+ }
+ .bootimg img{
+                                                         
+  width: 30px;
+ }
+ .bootpro{   height: 14px;
+   
+ }
+ .htmlpro{   height: 14px;
+  }
+ .jspro{   height: 14px;}
+ 
+ .csspro{
+  
+   height: 14px;
+  }
+  .htmlimg{width: 13.5%;}
+.cssimg{width: 13.5%;}
+.jsimg{width: 15.2%;}
+.bootimg{width: 15.1%;
+margin-top: 10px;}
+
+.proSkillCont{
+  display: grid;
+  grid-template-columns:50% 50%;
+  margin-top: 30px;
+}
+
+.procont{
+  height: 140px;
+  width: 140px;
+  
+ 
+  
+}
+.procont2{
+  height: 140px;
+  width: 140px;
+  
+ 
+  
+}
+
+
+.communication{
+  height: 120px;
+  width: 120px;
+  margin: 10px auto;
+  
+}
+.proskill{
+  margin-top: 20px;
+}
+
+/* project======================================== */
+
+
+#projects{
+  padding: 20px 0;
+  margin-top: -100px;
+}
+.pro-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap:15px ;
+  margin-top: 15px;
+}
+
+.pro-list div{
+
+
+  font-size: 14px;
+  font-weight: 100;
+  padding: 10px;
+ 
+  box-shadow:0px 5px 10px #0ef;
+
+
+}
+.pro-list div a{
+  
+  font-size: 15px;
+  margin-top: 2px;
+  padding: 7px;
+ 
+}
+.pro-list div h2{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+.pro-list div i{
+  display: none;
+}
+  /* contact ......................................... */
+
+  .col-left{
+    flex-basis: 100%;
+  margin-left: 0px;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .col-right{
+    flex-basis: 100%;
+  margin-left: 0px;
+    margin-top: 20px;
+  }
+  .col-left  h1{
+    font-size: 40px;
+  }
+  .col-left p {
+    font-size: 20px;
+    padding: 0px 0px;
+    margin-top: -5px;
+
+  }
+  .col-left p i{
+    padding-right: 10px;
+    font-size: 20px;
+   
+  }
+  
+  .social-icons a{
+    font-size: 25px;
+    margin-right: 8px;
+    
+  }
+  .re-Cont{ margin-top: 30px;}
+  
+  .name ,.email,.message{
+    width:320PX;
+   border: 1px solid white;
+    margin: 7px 0px;
+    border-radius: 5px;
+    color:white;
+    outline: none;
+    padding: 13px 0px;
+    font-size: 18px;
+    background: none;
+  }
+
+  .submit{
+margin:2px  35%;}
+  
+.contact1{
+  margin-top: -93px;
+}
+
+.copyright{
+ 
+  position: absolute;
+  bottom:-14px;
+ 
+  
+}
+}
+
+
